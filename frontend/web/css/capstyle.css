@@ -1,0 +1,68 @@
+/* 
+    Created on : 2015-10-2, 0:27:57
+    Author     : MrCaptain
+*/
+/*html {*/
+    /*background-color: #313a3d;*/
+    /*background-attachment: fixed;*/
+    /*background-image: url("../image/pic002.jpg");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size:cover;*/
+/*}*/
+/*body{*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*background: #7ABECB;*/
+    /*color:#000;*/
+    /*background-image: url("../image/pic02.jpg");*/
+    /*background-attachment: fixed;*/
+    /*background-size:cover;*/
+/*}*/
+body{
+    font-family:"宋体","Microsoft YaHei","黑体","宋体","sans-serif";
+    background: #D5D5D5; /* #D5D5D5  url('../image/pic02.jpg') no-repeat top center */
+    background-attachment: fixed;
+    background-size:cover;
+}
+.cap-pencil{
+    background: #ddd url('../image/cat.jpg') no-repeat center;
+    border: 3px #20B2AA solid;
+    width: 40px;height: 40px;
+    position: absolute;
+    top: 40px;
+    border-radius: 20px;
+    left: -35px;
+}
+.cap-pencil:hover{
+    background: #33558E url('../image/cat.jpg') no-repeat center;
+    border: 3px #33558E solid;
+    width: 40px;height: 40px;
+    position: absolute;
+    top: 40px;
+    border-radius: 20px;
+    left: -35px;
+}
+.cap-triangle{
+    content:'';
+    border: 10px solid transparent;
+    border-right-color: green;
+    position: absolute;
+    top: 48px;
+    left: -5px;
+}
+#back-top{position:fixed;bottom:0;right:10px;bottom: 80px; display: none;}
+.title-bar {color: #fff;}
+/* 主内容区*/
+.cap-main-content{ max-width: 60%;margin: 0 auto; }
+/* 缩略区和文章详情区，内嵌效果*/
+.cap-content-inner{box-shadow: 0px 0px 20px #000 inset;background: rgba(255 ,255, 255 ,0.6);overflow: hidden;word-break: break-all;}
+/* 主内容外框线*/
+.cap-content-line{border:5px #20B2AA solid;padding: 5px;border-radius: 10px;margin:0;}
+
+/*右侧栏*/
+.aside-right{ float: left;width: 20%; height: 800px; border: 1px red solid;margin-left: 30px;}
+
+
+
+
+
