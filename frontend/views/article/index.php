@@ -1,4 +1,4 @@
-<?php $this->title = isset($model['title']) ? $model['title'] . '-' . 'MrCaptain\'Share-忆燃科技':'MrCaptain\'Share-忆燃科技';?>
+<?php $this->title = isset($model['title']) ? $model['title'] . '_' . 'MrCaptain\'Share_忆燃科技':'MrCaptain\'Share_忆燃科技';?>
 <div class="middle-container">
         <div class="left-container">
             <?php if ($model) { ?>
